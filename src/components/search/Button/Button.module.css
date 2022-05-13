@@ -1,0 +1,8 @@
+.button {
+	width: 45px;
+	height: 100%;
+	background: url('../../../assets/icons/search.svg') center center no-repeat #f4bf76;
+	border-radius: 0 4px 4px 0;
+	border: none;
+	cursor: pointer;
+}

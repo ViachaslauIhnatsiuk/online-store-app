@@ -1,0 +1,31 @@
+.wrapper {
+	width: 350px;
+	height: 90px;
+	border: 1px solid #c40000;
+	border-radius: 4px;
+	padding: 14px 18px 14px 63px;
+	margin: 15px 0;
+}
+
+.title {
+	position: relative;
+	font-weight: 400;
+	font-size: 17px;
+	line-height: 1.255;
+	color: #c40000;
+	margin-bottom: 5px;
+}
+
+.title::before {
+	position: absolute;
+	content: url('../../../assets/icons/log-warning.svg');
+	top: -5px;
+	left: -40px;
+}
+
+.subtitle {
+	font-size: 13px;
+	line-height: 19px;
+	color: #111111;
+	word-wrap: break-word;
+}

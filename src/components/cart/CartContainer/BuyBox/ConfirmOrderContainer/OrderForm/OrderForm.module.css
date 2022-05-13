@@ -1,0 +1,49 @@
+.confirmForm {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+.text_input {
+	margin-top: 10px;
+}
+.label {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.input {
+	width: 400px;
+	height: 30px;
+	padding: 5px;
+	font-size: 16px;
+	outline: none;
+	border: 1px solid #a5a5a5;
+	border-radius: 5px;
+}
+.input:active,
+.input:focus {
+	border-color: #3f3f3f;
+}
+.error {
+	color: #ff0000;
+	font-size: 10px;
+}
+
+.form_button {
+	align-self: center;
+	cursor: pointer;
+	margin-top: 10px;
+	width: 100px;
+	height: 30px;
+	padding: 5px;
+	border-radius: 3px;
+	border: 1px solid #a5a5a5;
+	border-color: #cba957 #bf942a #aa8326;
+	background: -webkit-linear-gradient(top,#f7dfa5,#f0c14b);
+}
+.form_button:hover {
+	cursor: pointer;
+	background: -webkit-linear-gradient(top,#f5d78e,#eeb933);
+}

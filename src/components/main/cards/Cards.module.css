@@ -1,0 +1,29 @@
+.wrapper {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	width: 90vw;
+	margin: 0 auto;
+	gap: 30px;
+	margin-top: -60px;
+	z-index: 2;
+}
+
+@media (max-width: 1024px) {
+	.wrapper {
+		margin-top: -40px;
+	}
+}
+
+@media (max-width: 768px) {
+	.wrapper {
+		margin-top: -20px;
+	}
+}
+
+@media (max-width: 500px) {
+	.wrapper {
+		margin-top: -10px;
+	}
+}

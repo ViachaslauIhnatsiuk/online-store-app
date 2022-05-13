@@ -1,0 +1,38 @@
+.wrapper {
+	display: flex;
+	align-items: center;
+	height: 40px;
+	padding: 0 25px;
+	background-color: #252F3D;
+}
+
+.burger {
+	display: flex;
+	margin-right: 25px;
+	cursor: pointer;
+}
+
+.burger img {
+	margin-right: 10px;
+}
+
+.categories {
+	display: flex;
+	align-items: center;
+}
+
+@media (max-width: 768px) {
+	.categories {
+		display: none;
+	}
+}
+
+.category {
+	font-size: 14px;
+	color: #fff;
+	cursor: pointer;
+}
+
+.category:not(:last-child) {
+	margin-right: 25px;
+}

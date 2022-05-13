@@ -1,0 +1,47 @@
+.confirm_order_wrapper {
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+}
+.confirm_order_title {
+	align-self: center;
+}
+
+.order_list {
+	padding: 15px;
+}
+.order_list_item {
+	display: flex;
+	margin-bottom: 5px;
+}
+.item_pos {
+	padding-right: 10px;
+	border-right: 1px solid #dddddd;
+}
+.item_title {
+	width: 400px;
+	padding: 0 10px;
+	border-left: 1px solid #dddddd;
+	border-right: 1px solid #dddddd;
+}
+.item_count {
+	width: 50px;
+	padding: 0 10px;
+	border-left: 1px solid #dddddd;
+	border-right: 1px solid #dddddd;
+	text-align: right;
+}
+.item_price {
+	width: 100px;
+	padding: 0 10px;
+	border-left: 1px solid #dddddd;
+	border-right: 1px solid #dddddd;
+	text-align: right;
+}
+
+.item_currency {
+	padding-left: 10px;
+	border-left: 1px solid #dddddd;
+}

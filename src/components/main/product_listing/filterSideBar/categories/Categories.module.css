@@ -1,0 +1,86 @@
+.wrapper {
+  margin-left: 8px;
+  margin-top: 8px;
+  display: flex;
+  position: relative;
+}
+
+.active_category {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  padding: 5px;
+  padding-right: 15px;
+  font-size: 12px;
+  min-width: 50px;
+  min-width: 240;
+  overflow: hidden;
+  cursor: pointer;
+  border-radius: 10px;
+  display: flex;
+  position: relative;
+  margin-left: 5px;
+}
+
+.active_text {
+  margin-right: 5px;
+}
+
+.active_category.open {
+  background-color: orange;
+}
+
+.active_category.open:hover {
+  background-color: rgb(224, 146, 2);
+}
+
+.active_category:hover {
+  background-color: rgb(202, 202, 202);
+}
+
+.indicator {
+  width: 12px;
+  height: 12px;
+  position: absolute;
+  right: 3px;
+  top: 3px;
+  font-size: 15px;
+}
+
+.active_category.open .indicator {
+  transform: rotateZ(45deg) translateX(3px);
+}
+
+.categories {
+  position: absolute;
+  font-size: 14px;
+  padding: 5px;
+  left: -15px;
+  right: 15px;
+  top: 120%;
+  background-color: #fff;
+  border: 1px solid black;
+  border-radius: 15px;
+  box-shadow: rgb(104, 104, 104) 2px 5px 9px;
+  display: none;
+  overflow: hidden;
+  overflow-y: scroll;
+  z-index: 2;
+  max-height: 300px;
+}
+
+.categories.open {
+  display: block;
+}
+
+.category {
+  margin: 8px 0px;
+  font-size: 15px;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.category:hover {
+  background-color: rgba(255, 205, 113, 0.415);
+}

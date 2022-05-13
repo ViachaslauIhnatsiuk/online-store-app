@@ -1,0 +1,41 @@
+.wrapper {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+}
+
+.main {
+	display: flex;
+	align-items: center;
+	height: 60px;
+	padding: 0 25px;
+	background-color: #141920;
+}
+
+@media (max-width: 700px) {
+	.main {
+		flex-wrap: wrap;
+		height: auto;
+		padding: 10px 20px 0;
+		justify-content: space-between;
+	}
+}
+
+.logo {
+	display: block;
+	margin-right: 15px;
+	width: 135px;
+}
+
+@media (max-width: 1024px) {
+	.logo {
+		margin-right: 30px;
+		width: 100px;
+	}
+}
+
+@media (max-width: 768px) {
+	.logo {
+		display: none;
+	}
+}

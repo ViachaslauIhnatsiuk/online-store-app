@@ -1,0 +1,30 @@
+.wrapper {
+	width: 300px;
+	padding: 20px 20px 30px 20px;
+	background-color: #fff;
+	flex-shrink: 0;
+}
+
+.button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	line-height: 28px;
+	background-color: #FFD814;
+	border: none;
+	border-radius: 7px;
+}
+.button:disabled {
+	background-color: #F7CA00;
+}
+.button:disabled:hover {
+	cursor: default;
+	background-color: #F7CA00;
+}
+.button:hover {
+	cursor: pointer;
+	background-color: #F7CA00;
+	border-color: #F2C200;
+	box-shadow: 0 2px 5px 0 rgb(213 217 217 / 50%);
+}

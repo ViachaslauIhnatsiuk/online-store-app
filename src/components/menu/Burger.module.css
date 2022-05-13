@@ -1,0 +1,71 @@
+.menu {
+	position: absolute;
+	width: 358px;
+	height: 100vh;
+	background-color: #fff;
+	top: 0;
+	left: -358px;
+	opacity: 0;
+	transition: all 0.6s ease 0s;
+}
+
+.blur {
+	position: absolute;
+	width: calc(100vw - 400px);
+	height: 100vh;
+	left: 358px;
+	backdrop-filter: blur(2px);
+}
+
+.active {
+	position: absolute;
+	width: 358px;
+	height: 100vh;
+	background-color: #fff;
+	top: 0;
+	left: 0;
+	opacity: 1;
+	transition: all 0.6s ease 0s;
+	z-index: 100;
+}
+
+.close {
+	position: absolute;
+	left: 318px;
+	top: 15px;
+	cursor: pointer;
+}
+
+.account {
+	display: flex;
+	align-items: center;
+	height: 50px;
+	padding-left: 30px;
+	font-size: 26px;
+	color: #fff;
+	background-color: #252F3D;
+}
+
+.body {
+	padding: 20px 30px 25px;
+	overflow: auto;
+}
+
+.list {
+	display: flex;
+	flex-direction: column;
+}
+
+.link {
+	font-size: 18px;
+	color: #000;
+	cursor: pointer;
+}
+
+.link a {
+	color: #000
+}
+
+.list li:not(:last-child) {
+	margin-bottom: 15px;
+}

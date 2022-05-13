@@ -1,0 +1,29 @@
+.filter {
+  padding: 8px;
+}
+
+.filter_header {
+  color: rgb(87, 87, 87);
+  cursor: pointer;
+}
+
+.arrow {
+  margin-left: 5px;
+}
+
+.filter_header.active .arrow {
+  transform: rotateZ(180deg) translateY(2.5px);
+}
+
+.filter_body {
+  display: none;
+  margin-left: 5px;
+}
+
+.filter_body.active {
+  display: block;
+  max-height: 230px;
+  margin-top: 10px;
+  padding: 5px;
+  overflow-y: scroll;
+}

@@ -1,0 +1,84 @@
+.pagination {
+	display: flex;
+	align-items: center;
+	height: 48px;
+	width: fit-content;
+	margin: 0 auto;
+	border: 1px solid #d5d9d9;
+	box-shadow: 0 1px 2px 0 rgb(0 0 0 / 10%);
+	border-radius: 8px;
+	font-size: 14px;
+	color: #0F1111;
+}
+
+.page {
+	width: 48px;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+}
+
+.page:hover {
+	background-color: #f5f6f6;
+}
+
+.previous,
+.next {
+	position: relative;
+	width: 95px;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	padding: 0 13px;
+	color: #0f1111;
+	cursor: pointer;
+}
+
+.previous:hover {
+	background-color: #f5f6f6;
+	border-radius: 8px 0 0 8px;
+}
+
+.next:hover {
+	background-color: #f5f6f6;
+	border-radius: 0 8px 8px 0;
+}
+
+.previous {
+	justify-content: flex-end;
+	background: url('../../../../../../assets/icons/pag-prev.svg') 15px 17px no-repeat;
+}
+
+.next {
+	justify-content: center;
+	background: url('../../../../../../assets/icons/pag-next.svg') 67px 18px no-repeat;
+}
+
+.previous::after {
+	position: absolute;
+	content: '';
+	right: 0;
+	height: 35px;
+	border-right: 1px solid #d5d9d9;
+}
+
+.next::before {
+	position: absolute;
+	content: '';
+	left: 0;
+	height: 35px;
+	border-right: 1px solid #d5d9d9;
+}
+
+.current__page {
+	width: 48px;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid #0f1111;
+	font-weight: 700;
+	cursor: pointer;
+}
